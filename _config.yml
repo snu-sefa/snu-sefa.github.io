@@ -85,7 +85,7 @@ clients:
     img: "client04.png"
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Subsea Engineering and Flow Assurance Laboratory. Multiphase flow, gas hydrates, novel inhibitor, subsea processing system"
+about: "Subsea Engineering and Flow Assurance Laboratory. Researching in Multiphase Flow, Gas Hydrates, Novel Inhibitor, Subsea Processing System"
 
 # Testimonial content. Shown on Home and About page.
 testimonial:
