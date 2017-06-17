@@ -5,11 +5,11 @@ title: "SEFA"
 description: "서울대학교 해저공학연구실"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl:  #important: start with /
-url: "https://snu-sefa.github.io/"
+url: https://snu-sefa.github.io/
 
 # Build settings
-markdown: "kramdown"
-permalink: "/:categories/:title"
+markdown: kramdown
+permalink: /:categories/:title
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
@@ -25,22 +25,22 @@ colors:  #in hex code if not noted else
 collections:
   projects:
     output: true
-    permalink: "/projects/:title/"
+    permalink: /projects/:title/
   questions:
     output: true
-    permalink: "/questions/:title/"
+    permalink: /questions/:title/
 
 ### CONTACT SETTINGS ###
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  - title: "facebook"
+  - title: facebook
     url:
-  - title: "twitter"
+  - title: twitter
     url:
-  - title: "instagram"
+  - title: instagram
     url:
-  - title: "tumblr"
+  - title: tumblr
     url:
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
