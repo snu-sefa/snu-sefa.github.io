@@ -4,12 +4,12 @@
             <div class="col-lg-4">
                 <h4>About</h4>
                 <div class="hline-w"></div>
-                <img src="/assets/img/sefalogo01.png" style="width: 80%; align : middle;">
+                <img src="/assets/img/sefalogo02.png" style="width: 100%;">
                 <p>{{ site.about }}</p>
             </div>
             <div class="col-lg-4">
-                <div class="hline-w"></div>
                 <h4>주소 및 연락처</h4>
+                <div class="hline-w"></div>
                 <p>
                     {% for line in site.address.first.lines %}
                         {{ line }} <br>
@@ -17,8 +17,8 @@
                 </p>
             </div>
             <div class="col-lg-4">
-                <div class="hline-w"></div>
                 <h4>Contact Us</h4>
+                <div class="hline-w"></div>
                 <p>
                     {% for line in site.engaddress.first.lines %}
                         {{ line }} <br>
