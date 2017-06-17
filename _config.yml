@@ -61,7 +61,7 @@ members:
   - name: "Yukaek Seo"
     position: "Associate Professor"
     text: 
-    img: "team01.jpg"
+    img: "yutaek_seo.jpg"
     social:
       - title: "envelope" #use for email address
         url: "yutaek.seo@snu.ac.kr"
