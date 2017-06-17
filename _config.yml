@@ -1,0 +1,86 @@
+### GENERAL SETTINGS ###
+
+# Site settings
+title: "SEFA"
+description: "서울대학교 해저공학연구실"
+analytics: #Google analytics code in the format XX-nnnnnnnn-n
+baseurl: "" #important: start with /
+url: "http://sefa.snu.ac.kr"
+
+# Build settings
+markdown: kramdown
+permalink: /:categories/:title
+excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
+
+colors:  #in hex code if not noted else
+  primary: "#00b3fe" #"#F70031"
+  primary_rgb: "0,179,254" #"247,0,49" #rgb of the primary. Needed in some places for the transparency effect.
+  secondary: "#384452" #"#33004D"
+  link: "#428bca"
+  link_hover: "#01b2fe"
+  footer_heading: "#ffffff"
+  footer_content: "#bfc9d3"
+
+# Making projects separate from posts
+collections:
+  projects:
+    output: true
+    permalink: /projects/:title/
+  questions:
+    output: true
+    permalink: /questions/:title/
+
+### CONTACT SETTINGS ###
+
+# Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
+social:
+  - title: "facebook"
+    url:
+  - title: "twitter"
+    url:
+  - title: "instagram"
+    url:
+  - title: "tumblr"
+    url:
+
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+address:
+  - lines:
+    - "공과대학 36동 203호"
+    - "관악구 대학동 관악로 1 서울대학교"
+    - "대한민국 서울특별시"
+email: "snu-sefa@gmail.com"
+tel: "+34 8493-4893"
+
+
+### GENERAL DATA FOR VARIOUS LOCATIONS ###
+
+# Members information. Shown on About page.
+members:
+  - name: "Yukaek Seo"
+    position: "Associate Professor"
+    text: 
+    img: "yutaek_seo.jpg"
+    social:
+      - title: "envelope" #use for email address
+        url: "yutaek.seo@snu.ac.kr"
+
+# Clients information. Shown on Home and About pages.
+clients:
+  - name: "Hyundai Heavy Industry"
+    img: "client01.png"
+  - name: "Code is Poetry"
+    img: "client02.png"
+  - name: "Vimeo"
+    img: "client03.png"
+  - name: "VimeoPro"
+    img: "client04.png"
+
+# Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
+about: "Subsea Engineering and Flow Assurance Laboratory. Multiphase flow, gas hydrates, novel inhibitor, subsea processing system"
+
+# Testimonial content. Shown on Home and About page.
+testimonial:
+    message: ""
+    author: 
+    position: 
