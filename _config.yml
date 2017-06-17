@@ -8,8 +8,8 @@ baseurl: '/snu-sefa.github.io' #important: start with /
 url: "https://snu-sefa.github.io/"
 
 # Build settings
-markdown: kramdown
-permalink: /:categories/:title
+markdown: "kramdown"
+permalink: "/:categories/:title"
 excerpt_separator: <!--more--> #use this in posts to define how long the excerpt of the post (that is shown on the Blog page) is
 
 colors:  #in hex code if not noted else
@@ -25,10 +25,10 @@ colors:  #in hex code if not noted else
 collections:
   projects:
     output: true
-    permalink: /projects/:title/
+    permalink: "/projects/:title/"
   questions:
     output: true
-    permalink: /questions/:title/
+    permalink: "/questions/:title/"
 
 ### CONTACT SETTINGS ###
 
@@ -81,6 +81,6 @@ about: "Subsea Engineering and Flow Assurance Laboratory. Multiphase flow, gas h
 
 # Testimonial content. Shown on Home and About page.
 testimonial:
-    message: ""
+    message: 
     author: 
     position: 
