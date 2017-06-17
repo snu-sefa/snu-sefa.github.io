@@ -5,7 +5,6 @@ title: "SEFA"
 description: "서울대학교 해저공학연구실"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl:  #important: start with /
-url: https://snu-sefa.github.io/
 
 # Build settings
 markdown: kramdown
@@ -46,9 +45,18 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - "공과대학 36동 203호"
-    - "관악구 대학동 관악로 1 서울대학교"
-    - "대한민국 서울특별시"
+    - "36동 203호, (우) 08826"
+    - "서울특별시 관악구 대학동 관악로 1"
+    - "서울대학교 공과대학 조선해양공학과"
+email: "snu-sefa@gmail.com"
+tel: "+34 8493-4893"
+
+# Postal address (add as many lines as necessary). Shown in footer and on Contact page.
+address:
+  - lines:
+    - "Building 36, Room 203"
+    - "1, Gwanak-ro, Gwanak-gu, Seoul, 08826, Korea"
+    - "Dept. of Naval Architecture & Ocean Engineering, College of Engineering, Seoul National University"
 email: "snu-sefa@gmail.com"
 tel: "+34 8493-4893"
 
