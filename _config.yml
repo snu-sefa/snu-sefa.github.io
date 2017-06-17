@@ -4,7 +4,7 @@
 title: "SEFA"
 description: "서울대학교 해저공학연구실"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "/snu-sefa.github.io" #important: start with /
+baseurl: '/snu-sefa.github.io' #important: start with /
 url: "https://snu-sefa.github.io/"
 
 # Build settings
