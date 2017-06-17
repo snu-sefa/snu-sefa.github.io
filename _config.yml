@@ -1,9 +1,7 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: 
-  text: "SEFA"
-  img: "sefalogo_black.png"
+title: "sefalogo_black2.png"
 description: "서울대학교 해저공학연구실"
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
